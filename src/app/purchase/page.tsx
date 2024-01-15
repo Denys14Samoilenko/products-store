@@ -21,10 +21,10 @@ const Purchase = () => {
   const onSubmit = handleSubmit((data, e) => {
     emailjs
       .sendForm(
-        "service_rtypr5n",
-        "template_ce4s3b2",
+        "service_24jvb0s",
+        "template_5npjzp9",
         e?.target as HTMLFormElement,
-        "1TuJT5ySqma0VKWQC"
+        "hCmnQdn_gdy7eenkw"
       )
       .then((response) => {
         if (response.status === 200) {
